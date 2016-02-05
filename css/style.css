@@ -1,0 +1,9 @@
+#form input {
+	border-color: blue;
+	display: block;
+
+}
+.alert-message{
+	display: none;
+	color: red;
+}

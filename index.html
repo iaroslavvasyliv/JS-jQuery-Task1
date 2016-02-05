@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+<form id ="form">
+  <input name="name" placeholder="Username"/>
+  <span class="alert-message name">Please enter from 5 to 30 characters</span>
+  <input name="email" placeholder="email"/>
+  <span class="alert-message email">Please, enter valid email</span>
+  <input name="date" placeholder="date of bith dd/mm/yy"/>
+  <span class="alert-message date">Please enter date in format dd/mm/yyyy</span>
+  <input name="ip" placeholder="IP-address"/>
+  <span class="alert-message ip">Ip address not valid</span>
+  <input type="submit" value="Send" onclick="validateForm(); return false;" />
+</form>
+
+<script src="js/script.js"></script>
+
+</body>
